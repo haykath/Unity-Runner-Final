@@ -11,7 +11,7 @@ public class UIController : MonoBehaviour {
     public Text healthText;
     public Text messageText;
 
-    public PlayerManager pManager;
+    public PlayerObject pManager;
     public DamageableObject pDamage;
 
     private Coroutine messageCoroutine = null;
